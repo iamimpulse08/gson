@@ -31,7 +31,6 @@
     <!-- Overwrite property from parent -->
     <gson.isTestModule>true</gson.isTestModule>
   </properties>
-
   <dependencies>
     <dependency>
       <groupId>com.google.code.gson</groupId>
@@ -49,5 +48,11 @@
       <artifactId>truth</artifactId>
       <scope>test</scope>
     </dependency>
+      <dependency>
+          <groupId>com.google.code.gson</groupId>
+          <artifactId>gson</artifactId>
+          <version>${project.version}</version>
+          <scope>test</scope>
+      </dependency>
   </dependencies>
 </project>

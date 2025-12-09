@@ -19,7 +19,6 @@
  *
  * @since 2.8.6
  */
-
 module com.google.gson {
   exports com.google.gson;
   exports com.google.gson.annotations;

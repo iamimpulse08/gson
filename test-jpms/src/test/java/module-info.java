@@ -19,8 +19,10 @@ module com.google.gson.jpms_test {
   requires com.google.gson;
 
   // Test dependencies
-  requires junit;
-  requires truth; // has no proper module name yet, see https://github.com/google/truth/issues/605
+  requires static junit;
+  requires static truth; // has no proper module name yet, see
+
+  // https://github.com/google/truth/issues/605
 
   opens com.google.gson.jpms_test to
       junit;
